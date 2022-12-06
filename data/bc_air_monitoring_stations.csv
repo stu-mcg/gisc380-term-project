@@ -1,0 +1,21 @@
+STATION_NAME_FULL,STATION_NAME,EMS_ID,NAPS_ID,SERIAL,CITY,LAT,LONG,ELEVATION,STATUS_DESCRIPTION,OWNER,REGION,AIRZONE,STATUS,OPENED,CLOSED
+Burnaby Burmount,Burnaby Burmount,E244515,0,251,Burnaby,49.2667,-122.9356,101,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,2000-01-01,0
+Burnaby Kensington Park,Burnaby Kensington Park,310177,0,242,Burnaby,49.2794,-122.9711,133,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1975-01-03,0
+Burnaby Mountain,Burnaby Mountain,E206270,0,313,Burnaby,49.2797,-122.9222,360,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1984-01-01,0
+Burnaby North Eton,Burnaby North Eton,E244517,0,253,Burnaby,49.2875,-123.0078,70,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,2000-01-01,0
+Burnaby South,Burnaby South,E207418,0,249,Burnaby,49.2153,-122.9856,122,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1987-01-06,0
+North Burnaby Capitol Hill,North Burnaby Capitol Hill,E244516,0,252,Burnaby,49.2878,-122.9856,200,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,2000-01-01,0
+North Vancouver Mahon Park,North Vancouver Mahon Park,E209177,0,255,North Vancouver,49.3239,-123.0836,80,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1990-04-01,0
+North Vancouver Second Narrows,North Vancouver Second Narrows,310179,0,243,North Vancouver,49.3017,-123.0203,15,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1977-01-04,0
+Vancouver International Airport #2,Vancouver International Airport #2,E232246,0,259,Richmond,49.1864,-123.1522,10,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1998-01-02,0
+Vancouver Robson Square,Vancouver Robson Square,310174,0,240,Vancouver,49.2822,-123.1219,56,METRO VANCOUVER,MVRD,02 - Lower Mainland,Lower Fraser Valley,ON,1975-01-02,0
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+off,,,,,,,,,,,,,,,
+Burnaby Confederation Park,Burnaby Confederation Park,310178,0,311,Burnaby,49.2833,-123.0208,101,METRO VANCOUVER NON OPERATIONAL,MVRD,02 - Lower Mainland,0,OFF,1977-01-08,0
+Burnaby Edmonds,Burnaby Edmonds,E207420,0,312,Burnaby,49.2056,-122.9519,113,METRO VANCOUVER NON OPERATIONAL,MVRD,02 - Lower Mainland,0,OFF,1987-01-06,0
+Vancouver Kitsilano,Vancouver Kitsilano,310175,0,241,Vancouver,49.2617,-123.1633,34,METRO VANCOUVER NON OPERATIONAL,MVRD,02 - Lower Mainland,0,OFF,2010-03-16,0
+Vancouver Marpole,Vancouver Marpole,310176,0,340,Vancouver,49.2097,-123.1139,27,METRO VANCOUVER NON OPERATIONAL,MVRD,02 - Lower Mainland,0,OFF,1973-01-08,0
+West Vancouver Lions Gate,West Vancouver Lions Gate,310180,0,341,West Vancouver,49.3181,-123.1347,15,METRO VANCOUVER NON OPERATIONAL,MVRD,02 - Lower Mainland,0,OFF,1980-01-08,0

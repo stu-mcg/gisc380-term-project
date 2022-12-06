@@ -1,0 +1,37 @@
+Verified Air Quality Monitoring Data
+====================================
+
+This folder contains various datasets of air quality monitoring data collected in B.C. that has been validated through a QA/QC process. The expception is any folder with a `_Unverified` suffix - data in these files/folders is currently going through a validation process and may not be correct.
+
+Within each folder are files for individual pollutants and meteorological parameters:
+
+Pollutant data:
+--------------
+
+- AQHI.csv - Air Quality Health Index
+- CO.csv - Carbon monoxide
+- H2S.csv - Hydrogen sulfide
+- NO.csv - Nitric oxide
+- NO2.csv - Nitrogen dioxide
+- NOx.csv - Nitrogen oxides (NO + NO2)
+- O3.csv - Ground-level zone
+- PM10.csv - Coarse particulate matter (diameter of 10 micrometres or less)
+- PM25.csv - Fine particulate matter (diameter of 2.5 micrometres or less)
+- SO2.csv - Sulfur dioxide
+- TRS.csv - Total reduced sulfur
+
+Meteorological data:
+--------------------
+
+- HUMIDITY.csv - Humidity
+- PRECIP.csv - Precipitation
+- PRESSURE.csv - Barometric pressure
+- TEMP_MEAN.csv - Air temperature
+- WDIR_UVEC.csv - Wind direction (unit vector)
+- WDIR_VECT.csv - Wind direction (vector)
+- WSPD_SCLR.csv - Wind speed (scalar)
+- WSPD_VECT.csv - Wind speed (vector)
+
+The data are available for individual years from 2009 to the current year. There are also several datasets spanning multiple years, including one from 2009 up to the end of the last full year for which the data has been validated (`2009-LatestVerified`).
+
+See the BC Data Catalogue record for more information: https://catalogue.data.gov.bc.ca/dataset/77eeadf4-0c19-48bf-a47a-fa9eef01f409

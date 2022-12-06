@@ -1,0 +1,16 @@
+FTP link: ftp://ftp.env.gov.bc.ca/pub/outgoing/AIR/Hourly_Raw_Air_Data/Year_to_Date/
+
+
+Found weather station data at: ftp://ftp.env.gov.bc.ca/pub/outgoing/AIR/Air_Monitoring_Stations
+
+BCAirMonitoringStations.kmz
+bc_air_monitoring_stations.csv
+
+
+Picked weather stations by hand using kHz file in google earth and then copied out those rows from csv file
+
+
+Used https://envistaweb.env.gov.bc.ca multi station report feature to download all data from selected stations at 2 year intervals
+
+
+Picked out segments in Vancouver area by hand
