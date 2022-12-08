@@ -31,7 +31,25 @@ for(station in c("Burnaby Kensington Park", "Burnaby South", "North Vancouver Ma
 }
 allWeeklyAvgAQHI <- allWeeklyAvgAQHI[allWeeklyAvgAQHI$week >= as.Date("2017-01-01", "%F"), ]
 
+allWeeklyAvgTemp <- setNames(data.frame(matrix(ncol = 3, nrow = 0)), c("date", "temp", "StationName"))
+for(station in c("Burnaby North Eton", "Burnaby South", "North Vancouver Mahon Park", "North Burnaby Capitol Hill", "Vancouver International Airport #2")){
+  stationData <- allWeatherData[, allWeatherData[1, ] == station | allWeatherData[1, ] == "Date"]
+  stationData <- stationData[, stationData[2, ] == "TEMP_MEAN" | stationData[1, ] == "Date"]
+  stationData[1, stationData[2,] == "TEMP_MEAN"] <- "TEMP_MEAN"
+  names(stationData) <- stationData[1,]
+  stationData = tail(stationData, -3)
+  stationData$Date = as.Date(stationData$Date, "%m/%e/%Y")
+  stationData$TEMP_MEAN = as.numeric(stationData$TEMP_MEAN)
+  stationData$week <- as.Date(paste(format(stationData$Date, "%U-%Y"), "-0", sep=""), "%U-%Y-%w")
+  weeklyAvgTemp <- setNames(aggregate(stationData$TEMP_MEAN, FUN = mean, by = list(stationData$week)), c('week', 'temp'))
+  weeklyAvgTemp$stationName <- station
+  allWeeklyAvgTemp <- rbind(allWeeklyAvgTemp, weeklyAvgTemp)
+}
+allWeeklyAvgTemp <- allWeeklyAvgTemp[allWeeklyAvgTemp$week >= as.Date("2017-01-01", "%F"), ]
+allWeeklyAvgTemp[allWeeklyAvgTemp$week == as.Date("2021-10-10", "%F") & allWeeklyAvgTemp$stationName == "North Burnaby Capitol Hill", ]$temp = NA
+
 write.csv(allWeeklyAvgAQHI,"./data/weeklyAvgAQHI.csv", row.names = TRUE)
+write.csv(allWeeklyAvgTemp,"./data/weeklyAvgTemp.csv", row.names = TRUE)
 write.table(allWeatherData,"./data/allWeatherData.csv", row.names = FALSE, col.names = FALSE, sep=',')
 
 
